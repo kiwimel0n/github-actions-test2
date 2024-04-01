@@ -21,7 +21,7 @@ jobs:
           project: alstkd8580/github-actions-test2
           stage: main
           yaml: |
-            name: # 프로젝트 이름 ex) `cicd`
+            name: github-actions-test2
             app: java@17
             options:
               ports: 8080
