@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           project: alstkd8580/github-actions-test2
-          stage: main
+          stage: master
           yaml: |
             name: github-actions-test2
             app: java@17
